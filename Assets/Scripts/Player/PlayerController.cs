@@ -26,11 +26,13 @@ public class PlayerController : MonoBehaviour
     public GameObject hammer;
     private Animator hammerAnim;
     public AnimationClip hammerSmash;
+    private AudioSource hammerSound;
 
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
         hammerAnim = hammer.GetComponent<Animator>();
+        hammerSound = hammer.GetComponent<AudioSource>();
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -93,6 +95,7 @@ public class PlayerController : MonoBehaviour
         attacking = true;
 
         hammerAnim.SetTrigger("Attack");
+        hammerSound.Play();
 
         Invoke(nameof(ResetAttack), hammerSmash.length + 0.2f);
         Invoke(nameof(AttackRaycast), 0);

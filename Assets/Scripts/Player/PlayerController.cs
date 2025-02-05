@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     private float xRotation = 0f;
 
     // Attack
-    private float attackDistance = 2f;
+    private float attackDistance = 1.2f;
     public LayerMask attackLayer;
     private bool attacking = false;
     private bool readyToAttack = true;
@@ -26,11 +26,13 @@ public class PlayerController : MonoBehaviour
     public GameObject hammer;
     private Animator hammerAnim;
     public AnimationClip hammerSmash;
+    private AudioSource hammerSound;
 
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
         hammerAnim = hammer.GetComponent<Animator>();
+        hammerSound = hammer.GetComponent<AudioSource>();
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -42,6 +44,7 @@ public class PlayerController : MonoBehaviour
 
         Move();
         Look();
+        Crouch();
 
         if (Input.GetMouseButton(0))
         {
@@ -82,6 +85,23 @@ public class PlayerController : MonoBehaviour
         transform.Rotate(Vector3.up * mouseX);
     }
 
+    private void Crouch()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            cam.transform.localPosition = new Vector3(0, 0.25f, 0);
+            characterController.height = 1;
+            moveSpeed = 2f;
+
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftControl))
+        {
+            cam.transform.localPosition = new Vector3(0, 0.53f, 0);
+            characterController.height = 2;
+            moveSpeed = 6f;
+        }
+    }
+
     private void Attack()
     {
         if (!readyToAttack || attacking)
@@ -93,6 +113,7 @@ public class PlayerController : MonoBehaviour
         attacking = true;
 
         hammerAnim.SetTrigger("Attack");
+        hammerSound.Play();
 
         Invoke(nameof(ResetAttack), hammerSmash.length + 0.2f);
         Invoke(nameof(AttackRaycast), 0);
@@ -109,6 +130,11 @@ public class PlayerController : MonoBehaviour
         if (Physics.Raycast(cam.transform.position, cam.transform.forward, out RaycastHit hit, attackDistance, attackLayer))
         {
             Debug.Log(hit.transform.name);
+
+            if (hit.transform.TryGetComponent(out Breaking breaking))
+            {
+                // breaking.Break();
+            }
         }
     }
 }

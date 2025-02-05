@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     private float xRotation = 0f;
 
     // Attack
-    private float attackDistance = 1.5f;
+    private float attackDistance = 1.2f;
     public LayerMask attackLayer;
     private bool attacking = false;
     private bool readyToAttack = true;
@@ -44,6 +44,7 @@ public class PlayerController : MonoBehaviour
 
         Move();
         Look();
+        Crouch();
 
         if (Input.GetMouseButton(0))
         {
@@ -82,6 +83,23 @@ public class PlayerController : MonoBehaviour
 
         cam.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         transform.Rotate(Vector3.up * mouseX);
+    }
+
+    private void Crouch()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            cam.transform.localPosition = new Vector3(0, 0.25f, 0);
+            characterController.height = 1;
+            moveSpeed = 2f;
+
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftControl))
+        {
+            cam.transform.localPosition = new Vector3(0, 0.53f, 0);
+            characterController.height = 2;
+            moveSpeed = 6f;
+        }
     }
 
     private void Attack()

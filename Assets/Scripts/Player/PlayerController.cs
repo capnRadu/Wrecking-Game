@@ -1,14 +1,18 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     private CharacterController characterController;
+    private AudioSource footstepSound;
 
     // Movement
     private float moveSpeed = 6f;
     private float gravity = -9.8f;
     private float jumpHeight = 1.2f;
     private bool isGrounded;
+    private bool isMoving;
+    private bool isCrouching;
     private Vector3 velocity;
 
     // Look
@@ -28,11 +32,14 @@ public class PlayerController : MonoBehaviour
     public AnimationClip hammerSmash;
     private AudioSource hammerSound;
 
+    private bool isCoroutineRunning = false;
+
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
         hammerAnim = hammer.GetComponent<Animator>();
         hammerSound = hammer.GetComponent<AudioSource>();
+        footstepSound = GetComponent<AudioSource>();
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -45,6 +52,7 @@ public class PlayerController : MonoBehaviour
         Move();
         Look();
         Crouch();
+        Footsteps();
 
         if (Input.GetMouseButton(0))
         {
@@ -63,6 +71,15 @@ public class PlayerController : MonoBehaviour
         float z = Input.GetAxis("Vertical");
         Vector3 move = transform.right * x + transform.forward * z;
         characterController.Move(move * moveSpeed * Time.deltaTime);
+
+        if (x != 0 || z != 0)
+        {
+            isMoving = true;
+        }
+        else
+        {
+            isMoving = false;
+        }
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
@@ -92,6 +109,7 @@ public class PlayerController : MonoBehaviour
             cam.transform.localPosition = new Vector3(0, 0.25f, 0);
             characterController.height = 1;
             moveSpeed = 2f;
+            isCrouching = true;
 
         }
         else if (Input.GetKeyUp(KeyCode.LeftControl))
@@ -99,6 +117,25 @@ public class PlayerController : MonoBehaviour
             cam.transform.localPosition = new Vector3(0, 0.53f, 0);
             characterController.height = 2;
             moveSpeed = 6f;
+            isCrouching = false;
+        }
+    }
+
+    private void Footsteps()
+    {
+        if (isGrounded && isMoving)
+        {
+            if (!footstepSound.isPlaying)
+            {
+                if (!isCrouching)
+                {
+                    StartCoroutine(FootstepSound(0f));
+                }
+                else if (!isCoroutineRunning)
+                {
+                    StartCoroutine(FootstepSound(0.3f));
+                }
+            }
         }
     }
 
@@ -136,5 +173,13 @@ public class PlayerController : MonoBehaviour
                 breaking.Break();
             }
         }
+    }
+
+    private IEnumerator FootstepSound(float time)
+    {
+        isCoroutineRunning = true;
+        yield return new WaitForSeconds(time);
+        footstepSound.Play();
+        isCoroutineRunning = false;
     }
 }

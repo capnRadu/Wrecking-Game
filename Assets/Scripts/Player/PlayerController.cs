@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     private float xRotation = 0f;
 
     // Attack
-    private float attackDistance = 2f;
+    private float attackDistance = 1.5f;
     public LayerMask attackLayer;
     private bool attacking = false;
     private bool readyToAttack = true;
@@ -109,6 +109,11 @@ public class PlayerController : MonoBehaviour
         if (Physics.Raycast(cam.transform.position, cam.transform.forward, out RaycastHit hit, attackDistance, attackLayer))
         {
             Debug.Log(hit.transform.name);
+
+            if (hit.transform.TryGetComponent(out Breaking breaking))
+            {
+                // breaking.Break();
+            }
         }
     }
 }

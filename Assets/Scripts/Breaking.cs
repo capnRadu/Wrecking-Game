@@ -15,11 +15,6 @@ public class Breaking : MonoBehaviour
         bc = GetComponent<BoxCollider>();
     }
     
-    private void OnMouseDown()
-    {
-        Break();
-    }
-    
     private void Break()
     {
 

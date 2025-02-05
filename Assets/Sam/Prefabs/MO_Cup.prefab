@@ -48,7 +48,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8504570195354740252, guid: 547cc3c0c7fa2ec4bb27f6d89b06ad90, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b72d2da34095e54fb68884285762b4c, type: 2}
     - target: {fileID: -4306108521496319140, guid: 547cc3c0c7fa2ec4bb27f6d89b06ad90, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b72d2da34095e54fb68884285762b4c, type: 2}
+    - target: {fileID: -2030114167633047127, guid: 547cc3c0c7fa2ec4bb27f6d89b06ad90, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b72d2da34095e54fb68884285762b4c, type: 2}
+    - target: {fileID: -1799652186412703321, guid: 547cc3c0c7fa2ec4bb27f6d89b06ad90, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6b72d2da34095e54fb68884285762b4c, type: 2}
@@ -61,6 +73,10 @@ PrefabInstance:
       value: MO_Cup
       objectReference: {fileID: 0}
     - target: {fileID: 2770324832858192405, guid: 547cc3c0c7fa2ec4bb27f6d89b06ad90, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b72d2da34095e54fb68884285762b4c, type: 2}
+    - target: {fileID: 7504339925088969899, guid: 547cc3c0c7fa2ec4bb27f6d89b06ad90, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6b72d2da34095e54fb68884285762b4c, type: 2}

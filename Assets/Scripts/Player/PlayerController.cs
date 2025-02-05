@@ -152,7 +152,7 @@ public class PlayerController : MonoBehaviour
         hammerAnim.SetTrigger("Attack");
         hammerSound.Play();
 
-        Invoke(nameof(ResetAttack), hammerSmash.length + 0.2f);
+        Invoke(nameof(ResetAttack), hammerSmash.length + 0.3f);
         Invoke(nameof(AttackRaycast), 0);
     }
 
@@ -179,6 +179,7 @@ public class PlayerController : MonoBehaviour
     {
         isCoroutineRunning = true;
         yield return new WaitForSeconds(time);
+        footstepSound.pitch = Random.Range(0.8f, 1.1f);
         footstepSound.Play();
         isCoroutineRunning = false;
     }

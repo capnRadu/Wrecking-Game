@@ -53,8 +53,14 @@ public class Interact : MonoBehaviour
                 DisplayInteraction("");
                 if (Input.GetMouseButtonDown(0))
                 {
-                    //add hammer animation
                     BreakObject(hit.collider.gameObject);
+
+                    /*
+                    if(gamestarts==false)
+                    {
+                    gamestarts=true;
+                    }
+                    */
                 }
             }
         }

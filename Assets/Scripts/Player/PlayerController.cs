@@ -133,7 +133,7 @@ public class PlayerController : MonoBehaviour
 
             if (hit.transform.TryGetComponent(out Breaking breaking))
             {
-                // breaking.Break();
+                breaking.Break();
             }
         }
     }

@@ -15,7 +15,7 @@ public class Breaking : MonoBehaviour
         bc = GetComponent<BoxCollider>();
     }
     
-    private void Break()
+    public void Break()
     {
 
         intactObj.SetActive(false);

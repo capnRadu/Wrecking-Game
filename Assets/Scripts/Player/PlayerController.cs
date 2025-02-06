@@ -86,7 +86,7 @@ public class PlayerController : MonoBehaviour
             Crouch();
             Footsteps();
 
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButtonDown(0))
             {
                 if (!partsCollected)
                 {

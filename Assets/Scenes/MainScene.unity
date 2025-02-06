@@ -3245,6 +3245,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   hammer: {fileID: 5472414164634607920}
+  managerTimeReset: {fileID: 2098977752}
 --- !u!81 &3816311203173256793
 AudioListener:
   m_ObjectHideFlags: 0

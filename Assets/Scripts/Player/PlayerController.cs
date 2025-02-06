@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject part2;
     [SerializeField] private GameObject part3;
 
-    private bool partsCollected;
+    public static bool partsCollected;
     [SerializeField] private GameObject finalArtefact;
     [SerializeField] private GameObject finalArtefactPos;
 
@@ -52,6 +52,8 @@ public class PlayerController : MonoBehaviour
     private AudioSource hammerSound;
 
     private bool isCoroutineRunning = false;
+
+    [SerializeField] private ManagerTimeReset managerTimeReset;
 
     private void Awake()
     {
@@ -86,7 +88,10 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetMouseButton(0))
             {
-                Attack();
+                if (!partsCollected)
+                {
+                    Attack();
+                }
             }
         }
     }

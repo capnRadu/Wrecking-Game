@@ -11746,7 +11746,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &609927800
 Transform:
   m_ObjectHideFlags: 0
@@ -11884,8 +11884,8 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609927799}
   serializedVersion: 8
-  lengthInSec: 0.2
-  simulationSpeed: 1
+  lengthInSec: 0.5
+  simulationSpeed: 3
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -12130,7 +12130,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.01
+      scalar: 0.1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -12508,7 +12508,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 86.41
+    angle: 68.67
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -27303,7 +27303,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1062575789
 Transform:
   m_ObjectHideFlags: 0
@@ -27441,8 +27441,8 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062575788}
   serializedVersion: 8
-  lengthInSec: 0.2
-  simulationSpeed: 1
+  lengthInSec: 0.5
+  simulationSpeed: 3
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -27687,7 +27687,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.01
+      scalar: 0.1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -28065,7 +28065,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 86.41
+    angle: 68.67
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -36485,7 +36485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1319432244
 Transform:
   m_ObjectHideFlags: 0
@@ -36623,8 +36623,8 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1319432243}
   serializedVersion: 8
-  lengthInSec: 0.2
-  simulationSpeed: 1
+  lengthInSec: 0.5
+  simulationSpeed: 3
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -36869,7 +36869,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.01
+      scalar: 0.1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -37247,7 +37247,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 86.41
+    angle: 68.67
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -62104,6 +62104,7 @@ GameObject:
   - component: {fileID: 8527086129093737465}
   - component: {fileID: 8527086129093737467}
   - component: {fileID: 8527086129093737466}
+  - component: {fileID: 8527086129093737468}
   m_Layer: 3
   m_Name: Piece3
   m_TagString: Pickable
@@ -62252,6 +62253,7 @@ GameObject:
   - component: {fileID: 8339788710278755145}
   - component: {fileID: 8339788710278755147}
   - component: {fileID: 8339788710278755146}
+  - component: {fileID: 8339788710278755148}
   m_Layer: 3
   m_Name: Piece1
   m_TagString: Pickable
@@ -62275,6 +62277,7 @@ GameObject:
   - component: {fileID: 7661336388434546342}
   - component: {fileID: 7661336388434546344}
   - component: {fileID: 7661336388434546343}
+  - component: {fileID: 7661336388434546345}
   m_Layer: 3
   m_Name: Piece2
   m_TagString: Pickable
@@ -62585,8 +62588,8 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7250373826500938997}
   serializedVersion: 8
-  lengthInSec: 0.2
-  simulationSpeed: 1
+  lengthInSec: 0.5
+  simulationSpeed: 3
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -62831,7 +62834,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.01
+      scalar: 0.1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -63209,7 +63212,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 86.41
+    angle: 68.67
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -67377,6 +67380,25 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &7661336388434546345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7250373826500938997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf6a7a18dbb833e4db46e96e1f14e339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 1576942440}
+  - {fileID: 1702105789}
+  - {fileID: 1034082305}
+  - {fileID: 1560566352}
+  - {fileID: 1460533228}
+  - {fileID: 1481640923}
 --- !u!1 &7764823213591063959
 GameObject:
   m_ObjectHideFlags: 0
@@ -67564,8 +67586,8 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7210130696634459743}
   serializedVersion: 8
-  lengthInSec: 0.2
-  simulationSpeed: 1
+  lengthInSec: 0.5
+  simulationSpeed: 3
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -67810,7 +67832,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.01
+      scalar: 0.1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -68188,7 +68210,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 86.41
+    angle: 68.67
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -72279,6 +72301,25 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &8339788710278755148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7210130696634459743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf6a7a18dbb833e4db46e96e1f14e339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 1576942440}
+  - {fileID: 1702105789}
+  - {fileID: 1034082305}
+  - {fileID: 1560566352}
+  - {fileID: 1460533228}
+  - {fileID: 1481640923}
 --- !u!1001 &8497986624876669883
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72455,8 +72496,8 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5557428446263288255}
   serializedVersion: 8
-  lengthInSec: 0.2
-  simulationSpeed: 1
+  lengthInSec: 0.5
+  simulationSpeed: 3
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -72701,7 +72742,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.01
+      scalar: 0.1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -73079,7 +73120,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 86.41
+    angle: 68.67
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -77247,6 +77288,25 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &8527086129093737468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5557428446263288255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf6a7a18dbb833e4db46e96e1f14e339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 1576942440}
+  - {fileID: 1702105789}
+  - {fileID: 1034082305}
+  - {fileID: 1560566352}
+  - {fileID: 1460533228}
+  - {fileID: 1481640923}
 --- !u!4 &8839871572797017838
 Transform:
   m_ObjectHideFlags: 0

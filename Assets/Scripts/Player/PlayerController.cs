@@ -6,6 +6,13 @@ public class PlayerController : MonoBehaviour
     private CharacterController characterController;
     private AudioSource footstepSound;
 
+    private bool isActive = false;
+    public bool IsActive
+    {
+        get { return isActive; }
+        set { isActive = value; }
+    }
+
     // Movement
     private float moveSpeed = 6f;
     private float gravity = -9.8f;
@@ -49,14 +56,17 @@ public class PlayerController : MonoBehaviour
     {
         isGrounded = characterController.isGrounded;
 
-        Move();
-        Look();
-        Crouch();
-        Footsteps();
-
-        if (Input.GetMouseButton(0))
+        if (isActive)
         {
-            Attack();
+            Move();
+            Look();
+            Crouch();
+            Footsteps();
+
+            if (Input.GetMouseButton(0))
+            {
+                Attack();
+            }
         }
     }
 

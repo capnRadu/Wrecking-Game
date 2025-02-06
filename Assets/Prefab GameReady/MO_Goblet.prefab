@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9013853830505741065}
   - component: {fileID: 3439732072204504953}
   - component: {fileID: 2211686537184334620}
+  - component: {fileID: 2367492967210438469}
   m_Layer: 0
   m_Name: goblet_cell.002
   m_TagString: Untagged
@@ -137,6 +138,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2367492967210438469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301022836055600396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &387440981348757582
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,6 +163,7 @@ GameObject:
   - component: {fileID: 4612557678096784534}
   - component: {fileID: 1328544434229876239}
   - component: {fileID: 7387579224429479235}
+  - component: {fileID: 6734710145935839640}
   m_Layer: 0
   m_Name: goblet_cell.007
   m_TagString: Untagged
@@ -274,6 +288,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6734710145935839640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387440981348757582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1464286495090342311
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,6 +313,7 @@ GameObject:
   - component: {fileID: 6783981118480851286}
   - component: {fileID: 6304225008687601136}
   - component: {fileID: 8139603039325923855}
+  - component: {fileID: 3694191267152504139}
   m_Layer: 0
   m_Name: goblet_cell.001
   m_TagString: Untagged
@@ -411,6 +438,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3694191267152504139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464286495090342311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3305471916609041985
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,6 +586,7 @@ GameObject:
   - component: {fileID: 6614314207420171739}
   - component: {fileID: 1949977658715205038}
   - component: {fileID: 7993930510578717418}
+  - component: {fileID: 3066781030617743502}
   m_Layer: 0
   m_Name: goblet_cell.008
   m_TagString: Untagged
@@ -671,6 +711,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3066781030617743502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3687948441095797141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5535331708203210562
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +736,7 @@ GameObject:
   - component: {fileID: 8160286100658719547}
   - component: {fileID: 3518122594416310936}
   - component: {fileID: 1442595606964599655}
+  - component: {fileID: 6746378946898139265}
   m_Layer: 0
   m_Name: goblet_cell
   m_TagString: Untagged
@@ -808,6 +861,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6746378946898139265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5535331708203210562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5693356741644237844
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +886,7 @@ GameObject:
   - component: {fileID: 1476891916650063525}
   - component: {fileID: 7387820346524304947}
   - component: {fileID: 1849778997099398700}
+  - component: {fileID: 8520612079200336891}
   m_Layer: 0
   m_Name: goblet_cell.003
   m_TagString: Untagged
@@ -945,6 +1011,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8520612079200336891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5693356741644237844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6033438422208372125
 GameObject:
   m_ObjectHideFlags: 0
@@ -958,6 +1036,7 @@ GameObject:
   - component: {fileID: 441429506686256114}
   - component: {fileID: 2069766087493068175}
   - component: {fileID: 6423968992032156550}
+  - component: {fileID: 4698094430270009082}
   m_Layer: 0
   m_Name: goblet_cell.005
   m_TagString: Untagged
@@ -1082,6 +1161,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4698094430270009082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6033438422208372125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7533892257375010040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,6 +1226,7 @@ GameObject:
   - component: {fileID: 118515511020798312}
   - component: {fileID: 913908139141264125}
   - component: {fileID: 8016244342700124367}
+  - component: {fileID: 2959800384225118398}
   m_Layer: 0
   m_Name: goblet_cell.006
   m_TagString: Untagged
@@ -1259,6 +1351,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2959800384225118398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824589369941841491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8357482456052007617
 GameObject:
   m_ObjectHideFlags: 0
@@ -1305,6 +1409,7 @@ GameObject:
   - component: {fileID: 6019412235042741158}
   - component: {fileID: 8860572651624140870}
   - component: {fileID: 357474781518068664}
+  - component: {fileID: 2522554483152619846}
   m_Layer: 0
   m_Name: goblet_cell.009
   m_TagString: Untagged
@@ -1429,3 +1534,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2522554483152619846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8964505818600511285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

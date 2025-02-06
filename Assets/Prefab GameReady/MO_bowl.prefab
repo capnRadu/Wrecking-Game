@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 1581939258393554150}
   - component: {fileID: 8306848424073691554}
   - component: {fileID: 8883143376086318471}
+  - component: {fileID: 239651944837064769}
   m_Layer: 0
   m_Name: Bowl_cell
   m_TagString: Untagged
@@ -170,6 +171,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &239651944837064769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760319342300542639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2423605633130792444
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,6 +196,7 @@ GameObject:
   - component: {fileID: 8390630935960001855}
   - component: {fileID: 6792692581152814089}
   - component: {fileID: 2887237148718355387}
+  - component: {fileID: 3233344454648254833}
   m_Layer: 0
   m_Name: Bowl_cell.001
   m_TagString: Untagged
@@ -307,6 +321,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3233344454648254833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2423605633130792444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3831913584987405264
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,6 +469,7 @@ GameObject:
   - component: {fileID: 7004256192726971808}
   - component: {fileID: 237655778624724279}
   - component: {fileID: 2748373421000880449}
+  - component: {fileID: 3345187642326605962}
   m_Layer: 0
   m_Name: Bowl_cell.003
   m_TagString: Untagged
@@ -567,6 +594,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3345187642326605962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4031290865312510354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5403716551278675448
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,6 +619,7 @@ GameObject:
   - component: {fileID: 2139414614419398702}
   - component: {fileID: 1361432315641835618}
   - component: {fileID: 5758813522009640352}
+  - component: {fileID: 2293398388639237813}
   m_Layer: 0
   m_Name: Bowl_cell.002
   m_TagString: Untagged
@@ -704,6 +744,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2293398388639237813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5403716551278675448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7937489761549586949
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,6 +805,7 @@ GameObject:
   - component: {fileID: 1452507551217493813}
   - component: {fileID: 1453426226760837216}
   - component: {fileID: 3968045728871350473}
+  - component: {fileID: 7383752062344959797}
   m_Layer: 0
   m_Name: Bowl_cell.004
   m_TagString: Untagged
@@ -877,3 +930,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7383752062344959797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9068333735155272853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

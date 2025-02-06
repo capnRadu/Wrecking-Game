@@ -1,11 +1,12 @@
 using UnityEngine;
 
+
 public class Breaking : MonoBehaviour
 {
-    [SerializeField] GameObject intactObj;
-    [SerializeField] GameObject brokenObj;
+    [SerializeField] private GameObject intactObj;
+    [SerializeField] private GameObject brokenObj;
 
-    BoxCollider bc;
+    private BoxCollider bc;
 
     private void Awake()
     {
@@ -14,14 +15,15 @@ public class Breaking : MonoBehaviour
 
         bc = GetComponent<BoxCollider>();
     }
-    
+
+
     public void Break()
     {
-
         intactObj.SetActive(false);
         brokenObj.SetActive(true);
-
         bc.enabled = false;
     }
+
+   
 
 }

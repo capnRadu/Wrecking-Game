@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject part3;
 
     private bool partsCollected;
+    [SerializeField] private GameObject finalArtefact;
+    [SerializeField] private GameObject finalArtefactPos;
 
 
     // Movement
@@ -65,9 +67,12 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (!part1.activeSelf && !part2.activeSelf && !part3.activeSelf)
+        if (!part1.activeSelf && !part2.activeSelf && !part3.activeSelf && !partsCollected)
         {
             partsCollected = true;
+            GameObject artefact = Instantiate(finalArtefact, finalArtefactPos.transform.position, Quaternion.identity);
+            artefact.transform.SetParent(finalArtefactPos.transform, true);
+            hammer.SetActive(false);
         }
 
         isGrounded = characterController.isGrounded;

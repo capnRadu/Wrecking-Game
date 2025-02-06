@@ -2914,6 +2914,7 @@ GameObject:
   - component: {fileID: 2347851005065492308}
   - component: {fileID: 855673628919859949}
   - component: {fileID: 3075978575370859860}
+  - component: {fileID: 4765773925287317841}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3126,7 +3127,7 @@ MonoBehaviour:
   cam: {fileID: 7581619137148159319}
   attackLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   hammer: {fileID: 5472414164634607920}
   hammerSmash: {fileID: 7400000, guid: 55e7dc37a94d99041bef72bc5ceec36f, type: 2}
 --- !u!81 &3816311203173256793
@@ -3198,6 +3199,25 @@ Transform:
   - {fileID: 4789256749310274074}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4765773925287317841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804149310899831189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5589fee2db32474eac884df0240fb19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookDistance: 1.3
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  interactText: {fileID: 890226617}
+  interactImage: {fileID: 1910488648}
+  inventoryManager: {fileID: 2098977750}
 --- !u!95 &4782317169119663679
 Animator:
   serializedVersion: 7

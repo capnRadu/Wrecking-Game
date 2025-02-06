@@ -13,6 +13,16 @@ public class PlayerController : MonoBehaviour
         set { isActive = value; }
     }
 
+
+    // Artefact Pieces
+
+    [SerializeField] private GameObject part1;
+    [SerializeField] private GameObject part2;
+    [SerializeField] private GameObject part3;
+
+    private bool partsCollected;
+
+
     // Movement
     private float moveSpeed = 6f;
     private float gravity = -9.8f;
@@ -50,10 +60,16 @@ public class PlayerController : MonoBehaviour
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        partsCollected = false;
     }
 
     private void Update()
     {
+        if (!part1.activeSelf && !part2.activeSelf && !part3.activeSelf)
+        {
+            partsCollected = true;
+        }
+
         isGrounded = characterController.isGrounded;
 
         if (isActive)

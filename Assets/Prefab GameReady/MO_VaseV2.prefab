@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 5310082354543371206}
   - component: {fileID: 2136315087767679771}
   - component: {fileID: 3376593727208368788}
+  - component: {fileID: 5346532448629242460}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.005
   m_TagString: Untagged
@@ -170,6 +171,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5346532448629242460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299314174349412570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &619945536682079522
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,6 +196,7 @@ GameObject:
   - component: {fileID: 2803919400557966370}
   - component: {fileID: 4533749236565935018}
   - component: {fileID: 43888174355524698}
+  - component: {fileID: 5356132515251618632}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.004
   m_TagString: Untagged
@@ -307,6 +321,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5356132515251618632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619945536682079522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963134209726106088
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,6 +346,7 @@ GameObject:
   - component: {fileID: 3833583815144477004}
   - component: {fileID: 6920564330169826365}
   - component: {fileID: 6419943728565131088}
+  - component: {fileID: 1335217886516288065}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.007
   m_TagString: Untagged
@@ -444,6 +471,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1335217886516288065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963134209726106088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1444720460150897241
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,6 +496,7 @@ GameObject:
   - component: {fileID: 2424996465624776143}
   - component: {fileID: 6350861001572286683}
   - component: {fileID: 6570221404438190369}
+  - component: {fileID: 1676285957562833972}
   m_Layer: 0
   m_Name: Vase2 Whole_cell
   m_TagString: Untagged
@@ -581,6 +621,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1676285957562833972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444720460150897241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1532610707242485474
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,6 +646,7 @@ GameObject:
   - component: {fileID: 4769753114218814899}
   - component: {fileID: 1341304922473125984}
   - component: {fileID: 2380157117270813470}
+  - component: {fileID: 315894597296759831}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.016
   m_TagString: Untagged
@@ -718,6 +771,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &315894597296759831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532610707242485474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2306480405417194279
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,6 +796,7 @@ GameObject:
   - component: {fileID: 8053305617198897559}
   - component: {fileID: 3611969611973229949}
   - component: {fileID: 7685776856266551671}
+  - component: {fileID: 3742898833070594667}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.011
   m_TagString: Untagged
@@ -855,6 +921,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3742898833070594667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2306480405417194279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2565856452753947092
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,6 +946,7 @@ GameObject:
   - component: {fileID: 4249761178524930275}
   - component: {fileID: 4883962985151890064}
   - component: {fileID: 92623468766426639}
+  - component: {fileID: 4132148539678401981}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.010
   m_TagString: Untagged
@@ -992,6 +1071,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4132148539678401981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2565856452753947092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3649993654115475730
 GameObject:
   m_ObjectHideFlags: 0
@@ -1005,6 +1096,7 @@ GameObject:
   - component: {fileID: 8684616374456029792}
   - component: {fileID: 9164364617922251750}
   - component: {fileID: 8979169730515966890}
+  - component: {fileID: 7054961603152286086}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.002
   m_TagString: Untagged
@@ -1129,6 +1221,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7054961603152286086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3649993654115475730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4424567645788100689
 GameObject:
   m_ObjectHideFlags: 0
@@ -1142,6 +1246,7 @@ GameObject:
   - component: {fileID: 1788559350252149741}
   - component: {fileID: 3864327452751068547}
   - component: {fileID: 1492234499284942550}
+  - component: {fileID: 3505586188178165922}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.008
   m_TagString: Untagged
@@ -1266,6 +1371,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3505586188178165922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424567645788100689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4570496647830822406
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,6 +1396,7 @@ GameObject:
   - component: {fileID: 7857291986280271203}
   - component: {fileID: 6697658117655237082}
   - component: {fileID: 4126253052664647252}
+  - component: {fileID: 6634852178104708699}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.014
   m_TagString: Untagged
@@ -1403,6 +1521,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6634852178104708699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4570496647830822406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4659489286381520420
 GameObject:
   m_ObjectHideFlags: 0
@@ -1562,6 +1692,7 @@ GameObject:
   - component: {fileID: 95056477571237448}
   - component: {fileID: 7956945050519024794}
   - component: {fileID: 3281592219425182915}
+  - component: {fileID: 4387830212977295003}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.009
   m_TagString: Untagged
@@ -1686,6 +1817,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4387830212977295003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4661036470385628682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4975074146705497137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,6 +1842,7 @@ GameObject:
   - component: {fileID: 3463874699556058320}
   - component: {fileID: 8789459756326689244}
   - component: {fileID: 5692519976298032953}
+  - component: {fileID: 1449424275211499605}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.001
   m_TagString: Untagged
@@ -1823,6 +1967,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1449424275211499605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4975074146705497137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6346445766119989011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1836,6 +1992,7 @@ GameObject:
   - component: {fileID: 4111835260033411870}
   - component: {fileID: 6065494274715826948}
   - component: {fileID: 4022125314069120790}
+  - component: {fileID: 8941442662965108989}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.003
   m_TagString: Untagged
@@ -1960,6 +2117,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8941442662965108989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346445766119989011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6658086443327424572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,6 +2142,7 @@ GameObject:
   - component: {fileID: 8664171866495853359}
   - component: {fileID: 4612338224832937566}
   - component: {fileID: 3576938131908192519}
+  - component: {fileID: 1513070130205543851}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.012
   m_TagString: Untagged
@@ -2097,6 +2267,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1513070130205543851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6658086443327424572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6752667077435400840
 GameObject:
   m_ObjectHideFlags: 0
@@ -2110,6 +2292,7 @@ GameObject:
   - component: {fileID: 7924818803617113527}
   - component: {fileID: 8424422107269166578}
   - component: {fileID: 2062599009708973670}
+  - component: {fileID: 8645665356214368387}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.013
   m_TagString: Untagged
@@ -2234,6 +2417,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8645665356214368387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6752667077435400840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7759368613930948810
 GameObject:
   m_ObjectHideFlags: 0
@@ -2247,6 +2442,7 @@ GameObject:
   - component: {fileID: 5190791477578224449}
   - component: {fileID: 7197625819260540517}
   - component: {fileID: 4941812728664206710}
+  - component: {fileID: 463373858689717951}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.015
   m_TagString: Untagged
@@ -2371,6 +2567,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &463373858689717951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7759368613930948810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7907927050367947910
 GameObject:
   m_ObjectHideFlags: 0
@@ -2384,6 +2592,7 @@ GameObject:
   - component: {fileID: 4840313992221109783}
   - component: {fileID: 1520347651152337978}
   - component: {fileID: 1187057880289379156}
+  - component: {fileID: 4065891793487381261}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.006
   m_TagString: Untagged
@@ -2508,6 +2717,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4065891793487381261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7907927050367947910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8021802806494162161
 GameObject:
   m_ObjectHideFlags: 0
@@ -2616,8 +2837,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.014118563, y: 0.014118562, z: 0.0171098}
-  m_Center: {x: -0.0000000030267984, y: 0.000000001164153, z: -0.003371903}
+  m_Size: {x: 0.01185781, y: 0.011743709, z: 0.0171098}
+  m_Center: {x: 0.00009593115, y: 0.00015325297, z: -0.0033719027}
 --- !u!114 &6767381735489184512
 MonoBehaviour:
   m_ObjectHideFlags: 0

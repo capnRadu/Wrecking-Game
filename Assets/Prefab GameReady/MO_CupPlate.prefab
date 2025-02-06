@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 1758736638147910885}
   - component: {fileID: 7839721349695758703}
   - component: {fileID: 3519045156674529383}
+  - component: {fileID: 2470816883927757534}
   m_Layer: 0
   m_Name: cup_plate_cell.001
   m_TagString: Untagged
@@ -170,6 +171,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2470816883927757534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359464815066337137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2433295410328808432
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,6 +196,7 @@ GameObject:
   - component: {fileID: 7878392343257262671}
   - component: {fileID: 2558286200868504043}
   - component: {fileID: 934568454229053708}
+  - component: {fileID: 8663679361816596647}
   m_Layer: 0
   m_Name: cup_plate_cell.004
   m_TagString: Untagged
@@ -307,6 +321,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8663679361816596647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2433295410328808432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4837119957765180868
 GameObject:
   m_ObjectHideFlags: 0
@@ -454,6 +480,7 @@ GameObject:
   - component: {fileID: 1087065313783965622}
   - component: {fileID: 8422403060317439405}
   - component: {fileID: 1912391626321754813}
+  - component: {fileID: 7846885958593571252}
   m_Layer: 0
   m_Name: cup_plate_cell.003
   m_TagString: Untagged
@@ -578,6 +605,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7846885958593571252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5538510515845632729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7975313181162448822
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,6 +630,7 @@ GameObject:
   - component: {fileID: 1166600837863451559}
   - component: {fileID: 5666160929476745723}
   - component: {fileID: 6144821017213339700}
+  - component: {fileID: 8533362202404180186}
   m_Layer: 0
   m_Name: cup_plate_cell.002
   m_TagString: Untagged
@@ -715,6 +755,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8533362202404180186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7975313181162448822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8870285890083902118
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,6 +931,7 @@ GameObject:
   - component: {fileID: 7256488514412957997}
   - component: {fileID: 6344212195269921192}
   - component: {fileID: 2557004768502133553}
+  - component: {fileID: 7583526076991176423}
   m_Layer: 0
   m_Name: cup_plate_cell
   m_TagString: Untagged
@@ -1003,3 +1056,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7583526076991176423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9001636419816729365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

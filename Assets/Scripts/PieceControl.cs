@@ -26,7 +26,7 @@ public class PieceControl : MonoBehaviour
     void Update()
     {
        
-        if (Input.GetKeyDown(KeyCode.G) && !isLifted && !isReturning)
+        if (Input.GetMouseButtonDown(0) && !isLifted && !isReturning && PlayerController.partsCollected)
         {
             StartCoroutine(LiftAndReturn());
         }
@@ -35,6 +35,14 @@ public class PieceControl : MonoBehaviour
         if (isReturning)
         {
             ReturnToStart();
+        }
+    }
+
+    public void Rewind()
+    {
+        if (!isLifted && !isReturning)
+        {
+            StartCoroutine(LiftAndReturn());
         }
     }
 

@@ -15,7 +15,7 @@ public class ArtefactPiece : MonoBehaviour
         }
 
         transform.position = spawnPoints[randomIndex].transform.position;
-        transform.SetParent(spawnPoints[randomIndex].transform);
+        transform.SetParent(spawnPoints[randomIndex].transform, true);
         spawnPoints.RemoveAt(randomIndex);
     }
 }

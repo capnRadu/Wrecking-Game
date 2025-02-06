@@ -6,6 +6,23 @@ public class PlayerController : MonoBehaviour
     private CharacterController characterController;
     private AudioSource footstepSound;
 
+    private bool isActive = true;
+    public bool IsActive
+    {
+        get { return isActive; }
+        set { isActive = value; }
+    }
+
+
+    // Artefact Pieces
+
+    [SerializeField] private GameObject part1;
+    [SerializeField] private GameObject part2;
+    [SerializeField] private GameObject part3;
+
+    private bool partsCollected;
+
+
     // Movement
     private float moveSpeed = 6f;
     private float gravity = -9.8f;
@@ -29,7 +46,7 @@ public class PlayerController : MonoBehaviour
     // Hammer
     public GameObject hammer;
     private Animator hammerAnim;
-    public AnimationClip hammerSmash;
+    private AnimationClip currentHammerAnimation;
     private AudioSource hammerSound;
 
     private bool isCoroutineRunning = false;
@@ -43,20 +60,29 @@ public class PlayerController : MonoBehaviour
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        partsCollected = false;
     }
 
     private void Update()
     {
+        if (!part1.activeSelf && !part2.activeSelf && !part3.activeSelf)
+        {
+            partsCollected = true;
+        }
+
         isGrounded = characterController.isGrounded;
 
-        Move();
-        Look();
-        Crouch();
-        Footsteps();
-
-        if (Input.GetMouseButton(0))
+        if (isActive)
         {
-            Attack();
+            Move();
+            Look();
+            Crouch();
+            Footsteps();
+
+            if (Input.GetMouseButton(0))
+            {
+                Attack();
+            }
         }
     }
 
@@ -149,10 +175,14 @@ public class PlayerController : MonoBehaviour
         readyToAttack = false;
         attacking = true;
 
-        hammerAnim.SetTrigger("Attack");
+        int randomAttack = Random.Range(0, 2);
+        string attackName = randomAttack == 0 ? "Attack" : "Attack2";
+        currentHammerAnimation = randomAttack == 0 ? hammerAnim.runtimeAnimatorController.animationClips[0] : hammerAnim.runtimeAnimatorController.animationClips[1];
+
+        hammerAnim.SetTrigger(attackName);
         hammerSound.Play();
 
-        Invoke(nameof(ResetAttack), hammerSmash.length + 0.3f);
+        Invoke(nameof(ResetAttack), currentHammerAnimation.length + 0.3f);
         Invoke(nameof(AttackRaycast), 0);
     }
 

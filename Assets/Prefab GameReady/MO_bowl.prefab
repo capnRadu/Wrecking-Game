@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 1581939258393554150}
   - component: {fileID: 8306848424073691554}
   - component: {fileID: 8883143376086318471}
+  - component: {fileID: 239651944837064769}
   m_Layer: 0
   m_Name: Bowl_cell
   m_TagString: Untagged
@@ -170,6 +171,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &239651944837064769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760319342300542639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2423605633130792444
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,6 +196,7 @@ GameObject:
   - component: {fileID: 8390630935960001855}
   - component: {fileID: 6792692581152814089}
   - component: {fileID: 2887237148718355387}
+  - component: {fileID: 3233344454648254833}
   m_Layer: 0
   m_Name: Bowl_cell.001
   m_TagString: Untagged
@@ -307,6 +321,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3233344454648254833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2423605633130792444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3831913584987405264
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,6 +346,7 @@ GameObject:
   - component: {fileID: 2180650337096588558}
   - component: {fileID: 2947774434413142139}
   - component: {fileID: 6182453703137491657}
+  - component: {fileID: 259408506180365847}
   m_Layer: 3
   m_Name: Intact
   m_TagString: Breakable
@@ -430,6 +457,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1695351, y: 0.066153064, z: 0.1695353}
   m_Center: {x: 0.0000032410026, y: 0.033076525, z: 0.000007919967}
+--- !u!54 &259408506180365847
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3831913584987405264}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4031290865312510354
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,6 +497,7 @@ GameObject:
   - component: {fileID: 7004256192726971808}
   - component: {fileID: 237655778624724279}
   - component: {fileID: 2748373421000880449}
+  - component: {fileID: 3345187642326605962}
   m_Layer: 0
   m_Name: Bowl_cell.003
   m_TagString: Untagged
@@ -567,6 +622,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3345187642326605962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4031290865312510354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5403716551278675448
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,6 +647,7 @@ GameObject:
   - component: {fileID: 2139414614419398702}
   - component: {fileID: 1361432315641835618}
   - component: {fileID: 5758813522009640352}
+  - component: {fileID: 2293398388639237813}
   m_Layer: 0
   m_Name: Bowl_cell.002
   m_TagString: Untagged
@@ -704,6 +772,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2293398388639237813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5403716551278675448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7937489761549586949
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,13 +793,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4736660737548513324}
+  - component: {fileID: 3826646218525681724}
   m_Layer: 0
   m_Name: Broken
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4736660737548513324
 Transform:
   m_ObjectHideFlags: 0
@@ -740,6 +821,103 @@ Transform:
   - {fileID: 7729569738883104105}
   m_Father: {fileID: 2908423164162104158}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &3826646218525681724
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7937489761549586949}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 86cb136056378754689a71d6efb6e2e1, type: 3}
+  m_Resource: {fileID: 8300000, guid: 86cb136056378754689a71d6efb6e2e1, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.399
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &9068333735155272853
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,6 +931,7 @@ GameObject:
   - component: {fileID: 1452507551217493813}
   - component: {fileID: 1453426226760837216}
   - component: {fileID: 3968045728871350473}
+  - component: {fileID: 7383752062344959797}
   m_Layer: 0
   m_Name: Bowl_cell.004
   m_TagString: Untagged
@@ -877,3 +1056,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7383752062344959797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9068333735155272853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

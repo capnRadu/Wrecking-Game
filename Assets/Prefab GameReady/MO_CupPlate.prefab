@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 1758736638147910885}
   - component: {fileID: 7839721349695758703}
   - component: {fileID: 3519045156674529383}
+  - component: {fileID: 2470816883927757534}
   m_Layer: 0
   m_Name: cup_plate_cell.001
   m_TagString: Untagged
@@ -170,6 +171,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2470816883927757534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359464815066337137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2433295410328808432
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,6 +196,7 @@ GameObject:
   - component: {fileID: 7878392343257262671}
   - component: {fileID: 2558286200868504043}
   - component: {fileID: 934568454229053708}
+  - component: {fileID: 8663679361816596647}
   m_Layer: 0
   m_Name: cup_plate_cell.004
   m_TagString: Untagged
@@ -307,6 +321,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8663679361816596647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2433295410328808432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4837119957765180868
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,13 +342,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 249115671844029041}
+  - component: {fileID: 7945148197200605302}
   m_Layer: 0
   m_Name: Broken
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &249115671844029041
 Transform:
   m_ObjectHideFlags: 0
@@ -343,6 +370,103 @@ Transform:
   - {fileID: 6741050248132530018}
   m_Father: {fileID: 401600398579454666}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &7945148197200605302
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4837119957765180868}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 86cb136056378754689a71d6efb6e2e1, type: 3}
+  m_Resource: {fileID: 8300000, guid: 86cb136056378754689a71d6efb6e2e1, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &5538510515845632729
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,6 +480,7 @@ GameObject:
   - component: {fileID: 1087065313783965622}
   - component: {fileID: 8422403060317439405}
   - component: {fileID: 1912391626321754813}
+  - component: {fileID: 7846885958593571252}
   m_Layer: 0
   m_Name: cup_plate_cell.003
   m_TagString: Untagged
@@ -480,6 +605,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7846885958593571252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5538510515845632729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7975313181162448822
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,6 +630,7 @@ GameObject:
   - component: {fileID: 1166600837863451559}
   - component: {fileID: 5666160929476745723}
   - component: {fileID: 6144821017213339700}
+  - component: {fileID: 8533362202404180186}
   m_Layer: 0
   m_Name: cup_plate_cell.002
   m_TagString: Untagged
@@ -617,6 +755,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8533362202404180186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7975313181162448822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8870285890083902118
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +780,7 @@ GameObject:
   - component: {fileID: 6715020269673637575}
   - component: {fileID: 1944721349063993648}
   - component: {fileID: 3972418937980797447}
+  - component: {fileID: 3154813719922360414}
   m_Layer: 3
   m_Name: Intact
   m_TagString: Breakable
@@ -740,6 +891,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.16694951, y: 0.0117987525, z: 0.1669496}
   m_Center: {x: 0.0000015757978, y: 0.006246824, z: 0.0000079236925}
+--- !u!54 &3154813719922360414
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8870285890083902118}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &9001636419816729365
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,6 +931,7 @@ GameObject:
   - component: {fileID: 7256488514412957997}
   - component: {fileID: 6344212195269921192}
   - component: {fileID: 2557004768502133553}
+  - component: {fileID: 7583526076991176423}
   m_Layer: 0
   m_Name: cup_plate_cell
   m_TagString: Untagged
@@ -877,3 +1056,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7583526076991176423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9001636419816729365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d036b3eace9f7c4ab2fac0e07c7abb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

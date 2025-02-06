@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
     private CharacterController characterController;
     private AudioSource footstepSound;
 
-    private bool isActive = false;
+    private bool isActive = true;
     public bool IsActive
     {
         get { return isActive; }

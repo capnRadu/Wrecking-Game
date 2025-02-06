@@ -51,9 +51,9 @@ public class Interact : MonoBehaviour
             else if (hit.collider.CompareTag("Breakable"))
             {
                 DisplayInteraction("");
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButtonDown(0) && !PlayerController.partsCollected)
                 {
-                    //add hammer animation
+                   
                     BreakObject(hit.collider.gameObject);
                 }
             }

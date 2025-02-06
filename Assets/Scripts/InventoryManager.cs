@@ -1,12 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class InventoryManager : MonoBehaviour
 {
-    [SerializeField] private Image[] inventorySlots; // UI slots for inventory images
-    [SerializeField] private Sprite[] itemSprites; // Sprites for each item
+    [SerializeField] private Image[] inventorySlots; 
+    [SerializeField] private Sprite[] itemSprites; 
 
-    private int nextAvailableSlot = 0; // Tracks the next empty slot
+    private int nextAvailableSlot = 0; 
 
     public void AddToInventory(int itemIndex)
     {

@@ -3,21 +3,21 @@ using System.Collections.Generic;
 
 public class ManagerTimeReset : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> objectsToEnable;  // List of objects to activate
-    [SerializeField] private List<GameObject> objectsToDisable; // List of objects to deactivate
+    [SerializeField] private List<GameObject> objectsToEnable;  
+    [SerializeField] private List<GameObject> objectsToDisable; 
    
     void Update()
     {
-        if (PieceControl.timereset) // Check if timereset is true
+        if (PieceControl.timereset) 
         {
             ResetObjects();
-            PieceControl.timereset = false; // Reset timereset after applying changes
+            PieceControl.timereset = false; 
         }
     }
 
     private void ResetObjects()
     {
-        // Enable all objects in objectsToEnable list
+        
         foreach (GameObject obj in objectsToEnable)
         {
             if (obj != null)
@@ -31,7 +31,7 @@ public class ManagerTimeReset : MonoBehaviour
             }
         }
 
-        // Disable all objects in objectsToDisable list
+        
         foreach (GameObject obj in objectsToDisable)
         {
             if (obj != null) obj.SetActive(false);

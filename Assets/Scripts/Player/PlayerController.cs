@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject part2;
     [SerializeField] private GameObject part3;
 
-    private bool partsCollected;
+    public static bool partsCollected;
     [SerializeField] private GameObject finalArtefact;
     [SerializeField] private GameObject finalArtefactPos;
 
@@ -53,6 +53,8 @@ public class PlayerController : MonoBehaviour
 
     private bool isCoroutineRunning = false;
 
+    [SerializeField] private ManagerTimeReset managerTimeReset;
+
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
@@ -84,9 +86,12 @@ public class PlayerController : MonoBehaviour
             Crouch();
             Footsteps();
 
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButtonDown(0))
             {
-                Attack();
+                if (!partsCollected)
+                {
+                    Attack();
+                }
             }
         }
     }

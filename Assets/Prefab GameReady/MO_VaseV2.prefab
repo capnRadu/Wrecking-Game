@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 5346532448629242460}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.005
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 5356132515251618632}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.004
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 1335217886516288065}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.007
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -499,7 +499,7 @@ GameObject:
   - component: {fileID: 1676285957562833972}
   m_Layer: 0
   m_Name: Vase2 Whole_cell
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 315894597296759831}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.016
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -799,7 +799,7 @@ GameObject:
   - component: {fileID: 3742898833070594667}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.011
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -949,7 +949,7 @@ GameObject:
   - component: {fileID: 4132148539678401981}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.010
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1099,7 +1099,7 @@ GameObject:
   - component: {fileID: 7054961603152286086}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.002
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1249,7 +1249,7 @@ GameObject:
   - component: {fileID: 3505586188178165922}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.008
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1399,7 +1399,7 @@ GameObject:
   - component: {fileID: 6634852178104708699}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.014
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1695,7 +1695,7 @@ GameObject:
   - component: {fileID: 4387830212977295003}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.009
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1845,7 +1845,7 @@ GameObject:
   - component: {fileID: 1449424275211499605}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.001
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1995,7 +1995,7 @@ GameObject:
   - component: {fileID: 8941442662965108989}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.003
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2145,7 +2145,7 @@ GameObject:
   - component: {fileID: 1513070130205543851}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.012
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2295,7 +2295,7 @@ GameObject:
   - component: {fileID: 8645665356214368387}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.013
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2445,7 +2445,7 @@ GameObject:
   - component: {fileID: 463373858689717951}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.015
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2595,7 +2595,7 @@ GameObject:
   - component: {fileID: 4065891793487381261}
   m_Layer: 0
   m_Name: Vase2 Whole_cell.006
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

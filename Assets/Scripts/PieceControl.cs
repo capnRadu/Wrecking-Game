@@ -6,9 +6,9 @@ public class PieceControl : MonoBehaviour
     private Quaternion startRotation;
     private bool isLifted = false;
     private bool isReturning = false;
-    private float liftHeight = 1.4f;
+    private float liftHeight = 1.2f;
     private float returnSpeed = 3f;
-    private float liftSpeed = 0.3f;
+    private float liftSpeed = 0.4f;
     public static bool timereset;
 
     private Rigidbody rb; 
@@ -64,7 +64,7 @@ public class PieceControl : MonoBehaviour
         }
 
        
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
 
        
         isReturning = true;
@@ -97,7 +97,7 @@ public class PieceControl : MonoBehaviour
 
     private System.Collections.IEnumerator DelayedTimereset()
     {
-        yield return new WaitForSeconds(1.1f); 
+        yield return new WaitForSeconds(2f); 
         timereset = true;
     }
 

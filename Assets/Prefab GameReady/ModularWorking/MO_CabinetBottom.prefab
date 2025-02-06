@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4278112060492068164}
   m_Layer: 0
   m_Name: glass.002_cell.004
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 4326620140732793844}
   m_Layer: 0
   m_Name: glass.002_cell.005
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -857,7 +857,7 @@ GameObject:
   - component: {fileID: 8273959605138686099}
   m_Layer: 0
   m_Name: glass.002_cell
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -994,7 +994,7 @@ GameObject:
   - component: {fileID: 1147764814357437711}
   m_Layer: 0
   m_Name: glass.002_cell.006
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1131,7 +1131,7 @@ GameObject:
   - component: {fileID: 6952407648594473609}
   m_Layer: 0
   m_Name: glass.002_cell.002
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1376,7 +1376,7 @@ GameObject:
   - component: {fileID: 4058151318305206531}
   m_Layer: 0
   m_Name: glass.002_cell.007
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1999,7 +1999,7 @@ GameObject:
   - component: {fileID: 3401610557536168533}
   m_Layer: 0
   m_Name: glass.002_cell.003
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

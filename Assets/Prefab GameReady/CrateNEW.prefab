@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7975655646008438}
   m_Layer: 0
   m_Name: crate_cell.003
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 2862507820258814251}
   m_Layer: 0
   m_Name: crate_cell.006
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 4101719854074064605}
   m_Layer: 0
   m_Name: crate_cell.001
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 617093440669954304}
   m_Layer: 0
   m_Name: crate_cell.009
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -648,7 +648,7 @@ GameObject:
   - component: {fileID: 4987083125416314581}
   m_Layer: 0
   m_Name: crate_cell.007
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -921,7 +921,7 @@ GameObject:
   - component: {fileID: 3638276278233482059}
   m_Layer: 0
   m_Name: crate_cell.005
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1071,7 +1071,7 @@ GameObject:
   - component: {fileID: 5375015172980547385}
   m_Layer: 0
   m_Name: crate_cell.008
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1221,7 +1221,7 @@ GameObject:
   - component: {fileID: 4694394957863218629}
   m_Layer: 0
   m_Name: crate_cell.002
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1543,7 +1543,7 @@ GameObject:
   - component: {fileID: 5433378249173153433}
   m_Layer: 0
   m_Name: crate_cell.004
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1693,7 +1693,7 @@ GameObject:
   - component: {fileID: 4767222432467679366}
   m_Layer: 0
   m_Name: crate_cell
-  m_TagString: Untagged
+  m_TagString: Broken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

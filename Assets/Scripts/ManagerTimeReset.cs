@@ -20,15 +20,7 @@ public class ManagerTimeReset : MonoBehaviour
         // Enable all objects in objectsToEnable list
         foreach (GameObject obj in objectsToEnable)
         {
-            if (obj != null)
-            {
-                obj.SetActive(true);
-                BoxCollider collider = obj.GetComponent<BoxCollider>();
-                if (collider != null)
-                {
-                    collider.enabled = true;
-                }
-            }
+            if (obj != null) obj.SetActive(true);
         }
 
         // Disable all objects in objectsToDisable list

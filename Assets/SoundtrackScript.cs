@@ -4,8 +4,15 @@ public class SoundtrackScript : MonoBehaviour
 {
 
     [Header("Start Trigger")]
-    public bool GameStart = false;
-    public bool GameEnd = false; 
+    public static bool GameStart = false;
+    public static bool GameEnd = false;
+
+    private void Awake()
+    {
+        GameStart = false;
+        GameEnd = false;
+    }
+
 
     [Header("Stats")]
     [SerializeField]

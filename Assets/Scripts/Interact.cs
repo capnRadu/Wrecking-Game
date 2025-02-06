@@ -17,8 +17,11 @@ public class Interact : MonoBehaviour
 
     private Camera playerCamera;
 
+    private bool obs;
+
     private void Start()
     {
+        obs = false;
         playerCamera = Camera.main;
 
         if (interactText != null)
@@ -55,6 +58,12 @@ public class Interact : MonoBehaviour
                 {
                    
                     BreakObject(hit.collider.gameObject);
+
+                    if (!obs)
+                    {
+                        SoundtrackScript.GameStart = true;
+                        obs = true;
+                    }
                 }
             }
         }

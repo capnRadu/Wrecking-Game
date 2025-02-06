@@ -10,6 +10,7 @@ public class PieceControl : MonoBehaviour
     private float returnSpeed = 3f;
     private float liftSpeed = 0.4f;
     public static bool timereset;
+    private bool obs;
 
     private Rigidbody rb;
     private MeshCollider meshCollider;  // Add reference to MeshCollider
@@ -17,6 +18,7 @@ public class PieceControl : MonoBehaviour
     void Start()
     {
         timereset = false;
+        obs = false;
 
         startPosition = transform.position;
         startRotation = transform.rotation;
@@ -27,9 +29,12 @@ public class PieceControl : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && !isLifted && !isReturning && PlayerController.partsCollected)
+        if (Input.GetMouseButtonDown(0) && !isLifted && !isReturning && PlayerController.partsCollected && !obs)
         {
             StartCoroutine(LiftAndReturn());
+            obs = true;
+            SoundtrackScript.GameEnd = true;
+
         }
 
         if (isReturning)

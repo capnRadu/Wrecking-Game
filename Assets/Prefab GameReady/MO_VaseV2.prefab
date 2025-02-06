@@ -2423,6 +2423,7 @@ GameObject:
   - component: {fileID: 9026151229920856425}
   - component: {fileID: 7741427397365068980}
   - component: {fileID: 6767381735489184512}
+  - component: {fileID: 6203851790901764156}
   m_Layer: 3
   m_Name: Intact
   m_TagString: Breakable
@@ -2533,3 +2534,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   intactObj: {fileID: 8021802806494162161}
   brokenObj: {fileID: 4659489286381520420}
+--- !u!54 &6203851790901764156
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8021802806494162161}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

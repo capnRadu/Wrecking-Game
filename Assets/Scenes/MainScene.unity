@@ -15360,7 +15360,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1986580886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17841,6 +17841,7 @@ GameObject:
   - component: {fileID: 855673628919859949}
   - component: {fileID: 3075978575370859860}
   - component: {fileID: 4765773925287317841}
+  - component: {fileID: 4765773925287317842}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -18340,6 +18341,19 @@ MonoBehaviour:
   interactText: {fileID: 890226617}
   interactImage: {fileID: 1910488648}
   inventoryManager: {fileID: 2098977750}
+--- !u!114 &4765773925287317842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804149310899831189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c50a2e2ca17dfd47861a95d12f94f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushForce: 0.1
 --- !u!95 &4782317169119663679
 Animator:
   serializedVersion: 7

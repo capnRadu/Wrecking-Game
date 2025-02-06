@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     // Hammer
     public GameObject hammer;
     private Animator hammerAnim;
-    public AnimationClip hammerSmash;
+    private AnimationClip currentHammerAnimation;
     private AudioSource hammerSound;
 
     private bool isCoroutineRunning = false;
@@ -149,10 +149,14 @@ public class PlayerController : MonoBehaviour
         readyToAttack = false;
         attacking = true;
 
-        hammerAnim.SetTrigger("Attack");
+        int randomAttack = Random.Range(0, 2);
+        string attackName = randomAttack == 0 ? "Attack" : "Attack2";
+        currentHammerAnimation = randomAttack == 0 ? hammerAnim.runtimeAnimatorController.animationClips[0] : hammerAnim.runtimeAnimatorController.animationClips[1];
+
+        hammerAnim.SetTrigger(attackName);
         hammerSound.Play();
 
-        Invoke(nameof(ResetAttack), hammerSmash.length + 0.3f);
+        Invoke(nameof(ResetAttack), currentHammerAnimation.length + 0.3f);
         Invoke(nameof(AttackRaycast), 0);
     }
 

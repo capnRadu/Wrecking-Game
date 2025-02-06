@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Eva/Main Menu.unity
+    path: Assets/Scenes/Main Menu.unity
     guid: 9d80a7c62c4ef47238e9d0a102580540
   - enabled: 1
     path: Assets/Scenes/MainScene.unity

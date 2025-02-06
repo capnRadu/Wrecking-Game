@@ -93,6 +93,7 @@ public class Interact : MonoBehaviour
         }
     }
 
+    
     private void BreakObject(GameObject breakableObject)
     {
         Breaking breakingScript = breakableObject.GetComponent<Breaking>();
@@ -101,5 +102,7 @@ public class Interact : MonoBehaviour
             breakingScript.SendMessage("Break");
         }
     }
+
+    
 }
 

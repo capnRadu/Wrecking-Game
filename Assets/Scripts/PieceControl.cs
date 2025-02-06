@@ -32,6 +32,7 @@ public class PieceControl : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && !isLifted && !isReturning && PlayerController.partsCollected && !obs)
         {
             StartCoroutine(LiftAndReturn());
+            RewindNotBrakable.rewindTrigger = true;
             obs = true;
             SoundtrackScript.GameEnd = true;
 
@@ -60,7 +61,7 @@ public class PieceControl : MonoBehaviour
             rb.isKinematic = true;
         }
 
-        // Disable the MeshCollider when lifting
+        
         if (meshCollider != null)
         {
             meshCollider.enabled = false;
@@ -84,7 +85,7 @@ public class PieceControl : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, startPosition, returnSpeed * Time.deltaTime);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, startRotation, returnSpeed * Time.deltaTime * 10);
 
-        // Keep the MeshCollider disabled during return
+       
         if (meshCollider != null)
         {
             meshCollider.enabled = false;

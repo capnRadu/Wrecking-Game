@@ -3348,7 +3348,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   hammer: {fileID: 7901356397185988157}
-  hammerSmash: {fileID: 7400000, guid: 55e7dc37a94d99041bef72bc5ceec36f, type: 2}
 --- !u!143 &1132268737
 CharacterController:
   m_ObjectHideFlags: 0
@@ -4682,7 +4681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7901356397185988157}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.6, y: -0.81, z: 0.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4690,7 +4689,7 @@ Transform:
   - {fileID: 2637580148027798494}
   - {fileID: 8705978671012731718}
   m_Father: {fileID: 588556344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 19.35, z: -57.4}
 --- !u!1 &7901356397185988157
 GameObject:
   m_ObjectHideFlags: 0

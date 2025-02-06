@@ -5,6 +5,7 @@ public class SoundtrackScript : MonoBehaviour
 
     [Header("Start Trigger")]
     public bool GameStart = false;
+    public bool GameEnd = false; 
 
     [Header("Stats")]
     [SerializeField]
@@ -19,6 +20,8 @@ public class SoundtrackScript : MonoBehaviour
     bool IntroStart = false;
     [SerializeField]
     bool loopReady = false;
+    [SerializeField]
+    bool EndingStart = false;
 
 
 
@@ -29,6 +32,7 @@ public class SoundtrackScript : MonoBehaviour
     public AudioSource pianoSource;
     public AudioSource audioSource;
     public AudioSource audioSourceTwo;
+    public AudioSource Reverse;
     [Header("SFX")]
     public AudioSource PianoSlam;
 
@@ -47,10 +51,16 @@ public class SoundtrackScript : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            GameStart = true;
-        }
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    GameStart = true;
+        //}
+
+
+        //if (Input.GetKeyDown(KeyCode.Return))
+        //{
+        //    GameEnd = true;
+        //}
 
 
         if (GameStart && !musicStart) {
@@ -69,7 +79,14 @@ public class SoundtrackScript : MonoBehaviour
             PlayLoop();
         }
 
+        if (GameStart && musicStart && GameEnd && !EndingStart)
+        {
+            audioSourceTwo.Stop();
+            audioSource.Stop();
+            Reverse.Play();
+            EndingStart = true;
 
+        }
 
     }
 
